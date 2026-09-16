@@ -1,0 +1,206 @@
+{
+  "settings": {
+    "name": "صيدليات الثورة",
+    "english": "Al Thawra Pharmacy",
+    "since": "1952",
+    "phone": "01003004911",
+    "email": "elthawrapharmacy@gmail.com",
+    "hours": "9 ص - 3 ص",
+    "deliveryFee": 30,
+    "orderEditMinutes": 15,
+    "creditEnabled": false
+  },
+  "branches": [
+    {
+      "id": "BR1",
+      "name": "صيدلية الثورة – الفرع الرئيسي",
+      "address": "48 شارع مجلس الشعب – القاهرة",
+      "mobile": "01003004911",
+      "landline": "27959503",
+      "active": true,
+      "lat": 30.041,
+      "lon": 31.236,
+      "geofence": 150
+    },
+    {
+      "id": "BR2",
+      "name": "Sina Pharm – قصر العيني",
+      "address": "10 شارع صفية زغلول – القاهرة",
+      "mobile": "01060539615",
+      "landline": "27953669",
+      "active": true,
+      "lat": 30.033,
+      "lon": 31.231,
+      "geofence": 150
+    },
+    {
+      "id": "BR3",
+      "name": "صيدلية الهلال الجديدة – الجيزة",
+      "address": "200 شارع سعد زغلول – الجيزة",
+      "mobile": "01287266174",
+      "landline": "35721012",
+      "active": true,
+      "lat": 30.009,
+      "lon": 31.207,
+      "geofence": 150
+    }
+  ],
+  "contracts": [
+    "وزارة العدل",
+    "وزارة الإسكان والتعمير",
+    "وزارة التربية والتعليم",
+    "مصر للتأمين",
+    "تاون جاز",
+    "مجلس النواب",
+    "وادي النيل",
+    "المجد للرعاية الصحية"
+  ],
+  "permissions": [
+    "customers",
+    "contracts",
+    "products",
+    "inventory",
+    "orders",
+    "ads",
+    "reports",
+    "attendance",
+    "wallet_view",
+    "wallet_credit",
+    "wallet_debit",
+    "employees",
+    "credit",
+    "settings",
+    "documents",
+    "wallet_topups"
+  ],
+  "jobTitles": [
+    "عامل توصيل",
+    "مساعد دكتور",
+    "دكتور",
+    "محاسب",
+    "صيدلي",
+    "كاشير",
+    "مخزن",
+    "مشرف",
+    "موظف"
+  ],
+  "statuses": [
+    "pending",
+    "under_review",
+    "accepted",
+    "preparing",
+    "ready",
+    "out_for_delivery",
+    "delivered",
+    "suspended",
+    "rejected",
+    "execution_incomplete",
+    "cancelled"
+  ],
+  "users": [
+    {
+      "id": "EMP000001",
+      "name": "مالك النظام",
+      "email": "elthawrapharmacy@gmail.com",
+      "mobile": "01003004911",
+      "passwordHash": "scrypt$e5d86f8f968d563fe6e4e38e7a040805$3c4fa2093ec4d9980e1621e9475f7bf9022d6b720edb10602663cc1f46113d81a2fba0d7eb67c1bdae598dc5847cad7c075bda1bfdd2e4099a9e0b8745500ebb",
+      "role": "owner",
+      "jobTitle": "مالك النظام",
+      "branchId": "BR1",
+      "permissions": [
+        "customers",
+        "contracts",
+        "products",
+        "inventory",
+        "orders",
+        "ads",
+        "reports",
+        "attendance",
+        "wallet_view",
+        "wallet_credit",
+        "wallet_debit",
+        "employees",
+        "credit",
+        "settings",
+        "documents",
+        "wallet_topups"
+      ],
+      "active": true,
+      "verified": true
+    }
+  ],
+  "customers": [],
+  "products": [
+    {
+      "id": "P000001",
+      "name": "CellCept 500 mg",
+      "category": "أدوية",
+      "price": 1850,
+      "stock": 12,
+      "minStock": 3,
+      "branchId": "BR1",
+      "prescription": true,
+      "active": true,
+      "description": "يُصرف وفق الضوابط الطبية."
+    },
+    {
+      "id": "P000002",
+      "name": "Cosentyx",
+      "category": "حقن",
+      "price": 12500,
+      "stock": 4,
+      "minStock": 2,
+      "branchId": "BR1",
+      "prescription": true,
+      "active": true,
+      "description": "دواء بوصفة طبية."
+    },
+    {
+      "id": "P000003",
+      "name": "Ozempic",
+      "category": "سكري",
+      "price": 1850,
+      "stock": 8,
+      "minStock": 2,
+      "branchId": "BR1",
+      "prescription": true,
+      "active": true,
+      "description": "يُستخدم تحت إشراف طبي."
+    },
+    {
+      "id": "P000004",
+      "name": "ACM Novophane Capsules",
+      "category": "عناية بالشعر",
+      "price": 650,
+      "stock": 20,
+      "minStock": 5,
+      "branchId": "BR1",
+      "prescription": false,
+      "active": true,
+      "description": "كبسولات."
+    }
+  ],
+  "orders": [],
+  "wallet": [],
+  "documents": [],
+  "documentRequests": [],
+  "ads": [],
+  "attendance": [],
+  "audit": [],
+  "notifications": [],
+  "payments": [],
+  "coupons": [],
+  "paymentMethods": [
+    {
+      "id": "PM000001",
+      "name": "InstaPay",
+      "type": "instapay",
+      "account": "01275535262",
+      "instructions": "انسخ الرقم وحوّل المبلغ، ثم ارفع Screenshot للتحويل واكتب الرقم الذي حوّلت منه والمبلغ.",
+      "requiresScreenshot": true,
+      "active": true,
+      "sortOrder": 1
+    }
+  ],
+  "walletTopups": []
+}
