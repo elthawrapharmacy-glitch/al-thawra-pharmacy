@@ -1,0 +1,1 @@
+{"name":"al-thawra-pharmacy","version":"3.2.0","private":true,"description":"Al Thawra Pharmacy customer website and management backend","scripts":{"start":"node server.js","dev":"node server.js"},"engines":{"node":">=20"}}
